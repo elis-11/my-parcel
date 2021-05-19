@@ -4,7 +4,7 @@ body {
     main {
         margin: 0;
         padding: 0.8rem;
-        background-color: lightgray;
+        background-color: rgb(231, 220, 220);
         h1 {
             color: v.$mainHeaderColor;
         }
@@ -14,7 +14,7 @@ body {
             padding: 0.8rem;
         }
         article.browser {
-            background: white;
+            background: rgb(211, 187, 187);
             h2 {
                 color: v.$mainHeaderColor;
             }
@@ -26,7 +26,7 @@ body {
                 color: rgb(44, 141, 25);
                 .year {
                     font-size: 1.3rem;
-                    background-color: #eee;
+                    background-color: rgb(214, 188, 188);
                     color: navy;
                 }
                 strong {

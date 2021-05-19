@@ -4,10 +4,10 @@ body {
 body main {
   margin: 0;
   padding: 0.8rem;
-  background-color: lightgray;
+  background-color: #e7dcdc;
 }
 body main h1 {
-  color: #888587;
+  color: #968b92;
 }
 body main h1,
 body main article.browser {
@@ -15,21 +15,21 @@ body main article.browser {
   padding: 0.8rem;
 }
 body main article.browser {
-  background: white;
+  background: #d3bbbb;
 }
 body main article.browser h2 {
-  color: #888587;
+  color: #968b92;
 }
 body main article.browser h2,
 body main article.browser p {
   margin: 0.5rem;
 }
 body main article.browser p {
-  color: #8d1919;
+  color: #2c8d19;
 }
 body main article.browser p .year {
   font-size: 1.3rem;
-  background-color: #eee;
+  background-color: #d6bcbc;
   color: navy;
 }
 body main article.browser p strong {
