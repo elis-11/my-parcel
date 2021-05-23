@@ -1,39 +1,73 @@
 @use 'variables' as v;
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    main {
-        margin: 0;
-        padding: 0.8rem;
-        background-color: rgb(231, 220, 220);
-        h1 {
-            color: v.$mainHeaderColor;
-        }
-        h1,
-        article.browser {
-            margin: 10px;
-            padding: 0.8rem;
-        }
-        article.browser {
-            background: rgb(211, 187, 187);
-            h2 {
-                color: v.$mainHeaderColor;
-            }
-            h2,
-            p {
-                margin: 0.5rem;
-            }
-            p {
-                color: rgb(44, 141, 25);
-                .year {
-                    font-size: 1.3rem;
-                    background-color: rgb(214, 188, 188);
-                    color: navy;
-                }
-                strong {
-                    background-color: lightyellow;
-                    color: black;
-                }
-            }
-        }
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(231, 220, 220);
+  main {
+    margin: 0;
+    padding: 0.8rem;
+    width: 90%;
+    h1 {
+      color: v.$mainHeaderColor;
     }
+    h1,
+    .browser {
+      margin: 50px;
+      padding: 0.8rem;
+    }
+    .browser {
+      background: rgb(211, 187, 187);
+      width: 100%;
+      h2 {
+        color: v.$mainHeaderColor;
+      }
+      h2,
+      p {
+        margin: 0.5rem;
+      }
+      p {
+        color: rgb(166, 170, 165);
+        .year {
+          font-size: 1.3rem;
+          background-color: rgb(214, 188, 188);
+          color: navy;
+        }
+        strong {
+          background-color: lightyellow;
+          color: black;
+        }
+      }
+    }
+    .bitcoin {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      background-image: url(https://images.unsplash.com/photo-1518478021985-13055115e310?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1049&q=80);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: block;
+      color: rgb(82, 80, 72);
+    }
+    .bitcoin1 {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        background-image: url(https://responsive.fxempire.com/cover/615x410/_n/_fxempire_/2021/02/Depositphotos_210945666_s-2019-2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        color: rgb(82, 80, 72);
+  
+    }
+    .bitcoin2 {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        background-image: url(https://www.investingcube.com/wp-content/uploads/2019/09/shutterstock_789206401.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: block;
+        color: rgb(82, 80, 72);
+  
+    }
+  }
 }
